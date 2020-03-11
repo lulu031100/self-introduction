@@ -216,6 +216,12 @@ li {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+.single-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0;
+ 
+}
 .comment {
   font-weight:bold;
 }
