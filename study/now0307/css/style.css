@@ -310,10 +310,10 @@ li {
 
 }
 /*--------------------------------
- skill
+ interest
 ---------------------------------*/
 
-#skill .card-wrapper {
+#interest .card-wrapper {
   width: 80%;
   margin: 0 auto;
   padding: 20px 0;
@@ -327,7 +327,7 @@ li {
   justify-content: space-between;
 }
 
-#skill .card {
+#interest .card {
   flex-basis: 46%;
   margin-bottom: 50px;
   display: -webkit-box;
@@ -340,27 +340,27 @@ li {
   justify-content: space-between;
 }
 
-#skill .card:first-child {
+#interest .card:first-child {
   flex-basis: 100%;
 }
 
-#skill .skill-icon {
+#interest .interest-icon {
   flex-basis: 75px;
 }
 
-#skill .skill-icon img {
+#interest .interest-icon img {
   width: 75px;
 }
 
-#skill .skill-desc {
+#interest .interest-desc {
   flex-basis: calc(100% - 75px - 30px);
 }
 
-#skill .skill-desc-title {
+#interest .interest-desc-title {
   margin-bottom: 3px;
 }
 
-#skill .rate {
+#interest .rate {
   font-size: 16px;
   position: relative;
   display: inline-block;
@@ -369,8 +369,8 @@ li {
   letter-spacing: .3em;
 }
 
-#skill .rate:before,
-#skill .rate:after {
+#interest .rate:before,
+#interest .rate:after {
   line-height: 20px;
   position: absolute;
   top: 0;
@@ -380,33 +380,33 @@ li {
   content: "★★★★★";
 }
 
-#skill .rate:before {
+#interest .rate:before {
   color: #ddd;
 }
 
-#skill .rate:after {
+#interest .rate:after {
   overflow: hidden;
   white-space: nowrap;
   color: #f181b4;
 }
 
-#skill .rate1:after {
+#interest .rate1:after {
   width: 20px;
 }
 
-#skill .rate2:after {
+#interest .rate2:after {
   width: 40px;
 }
 
-#skill .rate3:after {
+#interest .rate3:after {
   width: 60px;
 }
 
-#skill .rate4:after {
+#interest .rate4:after {
   width: 80px;
 }
 
-#skill .rate5:after {
+#interest .rate5:after {
   width: 100px;
 }
 
@@ -589,54 +589,54 @@ li {
     width: 100%;
   }
 
-  #skill .card-wrapper {
+  #interest .card-wrapper {
     width: 100%;
   }
 
-  #skill .card {
+  #interest .card {
     flex-basis: 100%;
   }
 
-  #skill .skill-icon {
+  #interest .interest-icon {
     flex-basis: 45px;
   }
 
-  #skill .skill-icon img {
+  #interest .interest-icon img {
     width: 45px;
   }
 
-  #skill .skill-desc {
+  #interest .interest-desc {
     flex-basis: calc(100% - 45px - 20px);
   }
 
-  #skill .rate {
+  #interest .rate {
     height: 15px;
     font-size: 15px;
   }
 
-  #skill .rate:before,
-  #skill .rate:after {
+  #interest .rate:before,
+  #interest .rate:after {
     height: 15px;
     line-height: 15px;
   }
 
-  #skill .rate1:after {
+  #interest .rate1:after {
     width: 15px;
   }
 
-  #skill .rate2:after {
+  #interest .rate2:after {
     width: 35px;
   }
 
-  #skill .rate3:after {
+  #interest .rate3:after {
     width: 55px;
   }
 
-  #skill .rate4:after {
+  #interest .rate4:after {
     width: 75px;
   }
 
-  #skill .rate5:after {
+  #interest .rate5:after {
     width: 95px;
   }
 
